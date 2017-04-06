@@ -85,8 +85,116 @@ namespace WebApiWithMsgPack.Controllers
                             Budget = 909090
                         }
                     }
+                },
+                new Car
+                {
+                    Name = "Mercedes Benz C-300",
+                    ID = 300,
+                    Color = "Black Jet",
+                    Type1 = new CarType
+                    {
+                        Budget = 56564564,
+                        Types = "Ok"
+                    },
+                    Type2 = new List<CarType>
+                    {
+                        new CarType
+                        {
+                            Types = "Asdsad",
+                            Budget = 843584848
+                        },
+                        new CarType
+                        {
+                            Types = "auiasudiad",
+                            Budget = 909090
+                        }
+                    }
+                },
+                new Car
+                {
+                    Name = "Mercedes Benz C-300",
+                    ID = 300,
+                    Color = "Black Jet",
+                    Type1 = new CarType
+                    {
+                        Budget = 56564564,
+                        Types = "Ok"
+                    },
+                    Type2 = new List<CarType>
+                    {
+                        new CarType
+                        {
+                            Types = "asdasd",
+                            Budget = 843584848
+                        },
+                        new CarType
+                        {
+                            Types = "dscs",
+                            Budget = 909090
+                        }
+                    }
+                },
+                new Car
+                {
+                    Name = "Mercedes Benz C-300",
+                    ID = 300,
+                    Color = "Black Jet",
+                    Type1 = new CarType
+                    {
+                        Budget = 676575,
+                        Types = "Ok"
+                    },
+                    Type2 = new List<CarType>
+                    {
+                        new CarType
+                        {
+                            Types = "sdfsv",
+                            Budget = 2344
+                        },
+                        new CarType
+                        {
+                            Types = "sdfvs",
+                            Budget = 903249090
+                        }
+                    }
+                },
+                new Car
+                {
+                    Name = "Mercedes Benz C-300",
+                    ID = 300,
+                    Color = "Black Jet",
+                    Type1 = new CarType
+                    {
+                        Budget = 234532,
+                        Types = "Ok"
+                    },
+                    Type2 = new List<CarType>
+                    {
+                        new CarType
+                        {
+                            Types = "SDADAS",
+                            Budget = 5535
+                        },
+                        new CarType
+                        {
+                            Types = "auiaTHRTHsudiad",
+                            Budget = 879679
+                        }
+                    }
                 }
             };
+
+            //Car a = new Car
+            //{
+            //    Color = "Blue and White",
+            //    Name = "Mercedes Benz C-300",
+            //    ID = 300,
+            //    Type1 = new CarType
+            //    {
+            //        Types = "Test",
+            //        Budget = 1500000000
+            //    }
+            //};
 
             return Ok(a);
         }
